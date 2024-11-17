@@ -48,7 +48,7 @@
 
 #### Common Outcomes 大幅高开的4种常见结果
 
-- double Bottom near EMA, 双底回踩EMA
+- Double Bottom near EMA, 双底回踩EMA
 - Wedge Bottom near EMA, 楔形底回踩EMA
 
 - Double Top 双顶向下反转
