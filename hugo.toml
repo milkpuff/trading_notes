@@ -2,7 +2,7 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = '''Puff's blog'''
 # theme = 'hugo-theme-console'
-theme = 'hugo-PaperMode'
+theme = 'PaperMod'
 toc = true
 
 [params.homeInfoParams]
