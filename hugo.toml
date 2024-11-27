@@ -1,0 +1,27 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = '''Puff's blog'''
+# theme = 'hugo-theme-console'
+theme = 'hugo-PaperMode'
+toc = true
+
+[params.homeInfoParams]
+Title = "Puff's trading notes"
+Content = "Welcome."
+
+# [markup]
+#   [markup.tableOfContents]
+#     endLevel = 3
+#     ordered = false
+#     startLevel = 2
+
+# params:
+#   homeInfoParams:
+#     Title: Puff's trading notes wave
+#     Content: Welcome.
+
+  # socialIcons: # optional
+  #   - name: "<platform>"
+  #     url: "<link>"
+  #   - name: "<platform 2>"
+  #     url: "<link2>"
