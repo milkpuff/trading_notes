@@ -1,4 +1,4 @@
-baseURL = 'https://milkpuff.github.io/'
+baseURL = 'https://milkpuff.github.io/trading_notes/'
 languageCode = 'en-us'
 title = '''Puff's blog'''
 theme = 'PaperMod'
