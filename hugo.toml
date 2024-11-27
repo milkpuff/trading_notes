@@ -2,8 +2,6 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = '''Puff's blog'''
 theme = 'PaperMod'
-# theme = 'hugo-coder'
-toc = true
 
 [params.homeInfoParams]
 Title = "Puff's trading notes"
