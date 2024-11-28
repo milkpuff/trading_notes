@@ -1,8 +1,8 @@
 return {
 	filetypes = {
 		markdown = {
-			template = "![$CURSOR](/img/$FILE_NAME)",
-			dir_path = "static/img",
+			template = "![$CURSOR](/images/$FILE_NAME)",
+			dir_path = "assets/images",
 		},
 	},
 }
