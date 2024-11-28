@@ -1,4 +1,5 @@
 baseURL = 'https://milkpuff.github.io/trading_notes/'
+# baseURL = 'https://milkpuff.github.io/'
 languageCode = 'en-us'
 title = '''Puff's blog'''
 theme = 'PaperMod'
