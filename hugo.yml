@@ -1,0 +1,44 @@
+baseURL: "https://milkpuff.github.io/trading_notes/"
+title: Puff's blog
+paginate: 9
+theme: [PaperMod]
+languageCode: 'en-us'
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "Puff's trading notes."
+  author: Puff
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+
+  homeInfoParams:
+    Title: "Puff's trading notes"
+    Content: >
+      👋 Welcome!
+
+  socialIcons:
+    - name: github
+      title: View Source on Github
+      url: "https://github.com/milkpuff"
+
+  editPost:
+    URL: "https://github.com/milkpuff/trading_notes/tree/master/content/posts"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
