@@ -1,8 +1,28 @@
 baseURL: "https://milkpuff.github.io/trading_notes/"
 title: Puff's blog
-paginate: 9
 theme: [PaperMod]
-languageCode: 'en-us'
+pagination:
+  pagerSize: 9
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
 
 outputs:
   home:
@@ -16,17 +36,24 @@ params:
   author: Puff
   defaultTheme: auto
   # disableThemeToggle: true
-  ShowShareButtons: true
+  # ShowShareButtons: true
   ShowReadingTime: true
   # disableSpecial1stPost: true
   displayFullLangName: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  ShowRssButtonInSectionTermList: true
   ShowAllPagesInArchive: true
   ShowPageNums: true
   ShowToc: true
+
+  profileMode:
+    enabled: false
+    title: Puff's blog
+    buttons:
+      - name: Archives
+        url: archives
+      - name: Tags
+        url: tags
 
   homeInfoParams:
     Title: "Puff's trading notes"
@@ -39,6 +66,6 @@ params:
       url: "https://github.com/milkpuff"
 
   editPost:
-    URL: "https://github.com/milkpuff/trading_notes/tree/master/content/posts"
+    URL: "https://github.com/milkpuff/trading_notes/tree/master/content/"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
